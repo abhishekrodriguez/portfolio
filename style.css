@@ -1,4 +1,4 @@
-/*  import google fonts */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 * {
@@ -13,7 +13,6 @@ html {
 }
 
 
-/* custom scroll bar */
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -32,7 +31,7 @@ html {
 }
 
 
-/* all similar content styling codes */
+
 
 section {
     padding: 100px 0;
@@ -96,7 +95,6 @@ section .title::after {
 }
 
 
-/* navbar styling */
 
 .navbar {
     position: fixed;
@@ -156,7 +154,7 @@ section .title::after {
 }
 
 
-/* menu btn styling */
+
 
 .menu-btn {
     color: #fff;
@@ -196,7 +194,6 @@ section .title::after {
 }
 
 
-/* home section styling */
 
 .home {
     display: flex;
@@ -252,7 +249,7 @@ section .title::after {
 }
 
 
-/* about section styling */
+
 
 .about .title::after {
     content: "who i am";
@@ -306,7 +303,7 @@ section .title::after {
 }
 
 
-/* services section styling */
+
 
 .services,
 .teams {
@@ -364,7 +361,6 @@ section .title::after {
 }
 
 
-/* skills section styling */
 
 .skills .title::after {
     content: "what i know";
@@ -455,8 +451,6 @@ section .title::after {
 }
 
 
-/* teams section styling */
-
 .teams .title::after {
     content: "who with me";
 }
@@ -531,7 +525,6 @@ section .title::after {
 }
 
 
-/* contact section styling */
 
 .contact .title::after {
     content: "get in touch";
@@ -650,7 +643,6 @@ section .title::after {
 }
 
 
-/* footer section styling */
 
 footer {
     background: #111;
@@ -669,7 +661,6 @@ footer span a:hover {
 }
 
 
-/* responsive media query start */
 
 @media (max-width: 1300px) {
     .home .max-width {
